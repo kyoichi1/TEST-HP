@@ -1,0 +1,67 @@
+body {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	width: auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 2400px) {
+	header {
+		background-color: honeydew;
+		height: 25vh;
+	}
+
+	main {
+		background-color: rgb(204, 197, 197);
+		display: flex;
+		height: 65vh;
+	}
+
+	.main-contentA {
+		float: left;
+		width: 20vw;
+		background-color: rgb(250, 202, 202);
+		height: 65vh;
+	}
+
+	.main-contentB {
+		float: left;
+		width: 60vw;
+		background-color: rgb(235, 231, 213);
+		height: 65vh;
+	}
+	.main-contentC {
+		float: left;
+		width: 20vw;
+		background-color: rgb(230, 248, 209);
+		height: 65vh;
+	}
+
+	footer {
+		background-color: rgb(241, 225, 245);
+		height: 10vh;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	header {
+		height: 25vh;
+	}
+
+
+	.main-contentA {
+		width: 100vw;
+		height: 22vh;
+	}
+
+	.main-contentB {
+		width: 100vw;
+		height: 22vh;
+	}
+
+	.main-contentC {
+		width: 100vw;
+		height: 22vh;
+	}
+}
